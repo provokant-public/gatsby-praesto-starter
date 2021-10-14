@@ -21,7 +21,7 @@ const config = {
   siteRss: "/rss.xml",
   siteTitle: "Sozialphilosoph.eu",
   siteTitleAlt: "GatsbyJS Starter",
-  siteTitleShort: "Praesto",
+  siteTitleShort: "Sozialphilosoph.eu",
   siteUrl: "https://sozialphilosoph.eu",
   themeColor: "#c62828",
   userLocation: "Stuttgart, Germany",
