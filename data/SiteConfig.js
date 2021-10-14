@@ -9,7 +9,7 @@ const config = {
   footerLogo: "images/logos/logo-1024.png",
   landingPageImage: "images/content/hands.png",
   landingPageTeaser: "We're constantly collecting introductory material for all those interested in philosophy.<br><br><br><i><small>Easy language · Well researched · User-friendly</small></i>",
-  landingPageTitle: "Philosophical<br>Paragraphs<br>Explained",
+  landingPageTitle: "Lehre<br>Arbeit<br>Forschung",
   pathPrefix: "/gatsby-praesto-starter/",
   questionAccept: "Yes, let me read more!",
   questionDeny: "No, thanks",
@@ -19,12 +19,12 @@ const config = {
   siteLanguage: "en",
   siteLogo: "images/logos/logo-1024.png",
   siteRss: "/rss.xml",
-  siteTitle: "Praesto - Philosophical paragraphs explained",
+  siteTitle: "Sozialphilosoph.eu",
   siteTitleAlt: "GatsbyJS Starter",
   siteTitleShort: "Praesto",
-  siteUrl: "https://localhost:8000",
+  siteUrl: "https://sozialphilosoph.eu",
   themeColor: "#c62828",
-  userLocation: "North Pole, Earth",
+  userLocation: "Stuttgart, Germany",
 };
 
 // Validate

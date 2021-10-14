@@ -28,7 +28,7 @@ module.exports = {
           // eslint-disable-next-line global-require
           require("tailwindcss")("./tailwind.js"),
           // eslint-disable-next-line global-require,import/no-extraneous-dependencies
-          require("autoprefixer")(),
+          //require("autoprefixer")(),
         ],
       },
     },
