@@ -26,10 +26,10 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-6f81dc376e736b288526.js"
+    "url": "webpack-runtime-3a95a169980c0e83dea4.js"
   },
   {
-    "url": "styles.ff4acf4d368258f3ce07.css"
+    "url": "styles.3d640e6e060dac5d1d7f.css"
   },
   {
     "url": "styles-407fe62976dc5310c43e.js"
@@ -38,14 +38,14 @@ self.__precacheManifest = [
     "url": "framework-8e528b732ab2eaadb7b7.js"
   },
   {
-    "url": "app-9f3bdfc9b93bd6f3dedc.js"
+    "url": "app-df910cf4cf9fcfb9d894.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-772d0ba090a78fc6a1a2.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "40c0c317d9d90d8d62aaa62f23ce095b"
+    "revision": "841e5e453fa4fd2e46bb141c58f16321"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -53,14 +53,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "4c76c2303b7a4acd3de07a577a6fc5b8"
+    "revision": "d0b112e48119f81e1f5bff2e01fe8a38"
   },
   {
     "url": "polyfill-c38cd845a4181427323c.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "a153f82f720201e05a34c1a7a1cc64d9"
+    "revision": "c4253cbd2ae422ea68e5e2183ffedec9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -81,7 +81,7 @@ const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
   return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/gatsby-praesto-starter/offline-plugin-app-shell-fallback/index.html`
+      const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
       const cacheName = workbox.core.cacheNames.precache
 
       return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
@@ -150,7 +150,7 @@ const messageApi = {
 
     pathnames = pathnames.map(({ pathname, includesPrefix }) => {
       if (!includesPrefix) {
-        return `/gatsby-praesto-starter${pathname}`
+        return `${pathname}`
       } else {
         return pathname
       }
