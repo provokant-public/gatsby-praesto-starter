@@ -10,7 +10,7 @@ const config = {
   landingPageImage: "images/content/hands.png",
   landingPageTeaser: "We're constantly collecting introductory material for all those interested in philosophy.<br><br><br><i><small>Easy language · Well researched · User-friendly</small></i>",
   landingPageTitle: "Lehre<br>Arbeit<br>Forschung",
-  pathPrefix: "/gatsby-praesto-starter/",
+  pathPrefix: "",
   questionAccept: "Yes, let me read more!",
   questionDeny: "No, thanks",
   showBackButton: true,
